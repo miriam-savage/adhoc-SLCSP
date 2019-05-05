@@ -1,0 +1,23 @@
+{
+  "name": "adhoc-slcsp",
+  "version": "1.0.0",
+  "description": "Homework assignment for a job opening",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miriam-savage/adhoc-SLCSP.git"
+  },
+  "author": "Miriam Savage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miriam-savage/adhoc-SLCSP/issues"
+  },
+  "homepage": "https://github.com/miriam-savage/adhoc-SLCSP#readme",
+  "devDependencies": {
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}
