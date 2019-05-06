@@ -1,11 +1,20 @@
 # Calculate second lowest cost silver plan (SLCSP)
 
-## Problem
+## Installation
+
+1. Node must be installed on the system. You may get it [here](https://nodejs.org/en/download/).
+2. Execute `npm i` on the command line in the directory main directory where the `package.json` file for this tool is located.
+3. Once everything is install successfully, execute `npm run prod` to execute to the tool.
+
+
+## The assignment
+
+### Problem
 
 You have been asked to determine the second lowest cost silver plan (SLCSP) for
 a group of ZIP Codes.
 
-## Task
+### Task
 
 You have been given a CSV file, `slcsp.csv`, which contains the ZIP Codes in the
 first column. Fill in the second column with the rate (see below) of the
@@ -13,7 +22,7 @@ corresponding SLCSP and emit the answer as a CSV on stdout.
 
 Write your code in your best programming language.
 
-### Expected output
+#### Expected output
 
 The order of the rows in your answer as emitted on stdout must stay the same as how they
 appeared in the original `slcsp.csv`. The first row should be the column headers: `zipcode,rate`
@@ -22,7 +31,7 @@ place of the rates, for example: `64148,245.20`.
 
 It may not be possible to determine a SLCSP for every ZIP Code given; for example, if there is only one silver plan available, there is no _second_ lowest cost plan. Check for cases where a definitive answer cannot be found and leave those cells blank in the output CSV (no quotes or zeroes or other text). For example, `40813,`
 
-## Additional information
+### Additional information
 
 The SLCSP is the so-called "benchmark" health plan in a particular area. It is
 used to compute the tax credit that qualifying individuals and families receive

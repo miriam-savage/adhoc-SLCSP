@@ -65,6 +65,6 @@ function writeToFile(data: string) {
     const dataToFile = new Uint8Array(Buffer.from(data));
     fs.writeFile('./csvFiles/stdout.csv', dataToFile, (err: Error) => {
         if (err) throw err;
-        console.log('The file has been saved to: ./csvFiles/stdout.csv');
+        console.log('The output has been saved to: ./csvFiles/stdout.csv');
     });
 }
