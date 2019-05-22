@@ -1,4 +1,6 @@
 # Calculate second lowest cost silver plan (SLCSP)
+## Purpose
+This demo was done and submitted to a company as part of a submission for a position. Below was the goal for the demo.
 
 ## Installation
 
